@@ -15,6 +15,7 @@
     "@types/cross-spawn": "^6.0.2",
     "@types/fs-extra": "^9.0.1",
     "@types/node": "^14.0.23",
+    "colors": "^1.4.0",
     "cross-spawn": "^7.0.3",
     "fs-extra": "^9.0.1",
     "husky": "^4.2.5",
