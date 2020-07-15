@@ -1,0 +1,56 @@
+.options {
+  background: #ddd;
+
+  & > div {
+    color: black;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+
+    select:first-child,
+    span:first-child {
+      border-right: 1px solid #ccc;
+      max-width: 25%;
+    }
+
+    input {
+      min-width: 0;
+    }
+
+    input:not(:last-child) {
+      border-right: 1px solid #ccc;
+    }
+
+    button {
+      cursor: pointer;
+      padding: 10px 20px;
+      outline: none;
+
+      &:hover {
+        background: #ccc;
+      }
+
+      &::-moz-focus-inner {
+        border: 0;
+      }
+    }
+
+    & > span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+    }
+
+    & > * {
+      flex: 1;
+    }
+  }
+}
+
+.delete {
+  max-width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px !important;
+}
