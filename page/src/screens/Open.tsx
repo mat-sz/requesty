@@ -8,7 +8,13 @@ const Open: React.FC = () => {
   const appContext = useContext(AppContext);
 
   useEffect(() => {
-    const url = new URLSearchParams(history.location.search).get('url');
+    const params = new URLSearchParams(history.location.search);
+    let url = params.get('url');
+
+    if (url?.startsWith('chrome')) {
+      url = null;
+    }
+
     appContext.setUrl(url);
     history.push('/');
   }, [history, appContext]);
