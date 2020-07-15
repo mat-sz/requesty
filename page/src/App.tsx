@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { HashRouter, Switch, Route } from 'react-router-dom';
 
-import './App.css';
+import './App.scss';
 
 import Open from './screens/Open';
 import Home from './screens/Home';
