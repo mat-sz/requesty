@@ -8,6 +8,7 @@ const Home: React.FC = () => {
 
   return (
     <div className="main">
+      <h1>requesty</h1>
       <Options />
     </div>
   );

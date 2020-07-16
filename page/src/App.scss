@@ -12,7 +12,7 @@ body {
   background: #1a1a22;
   color: #f1f1f1;
   padding: 20px;
-  padding-top: 50px;
+  padding-top: 0;
 }
 
 code {
@@ -62,4 +62,10 @@ select {
   background-size: 20px;
   background-repeat: no-repeat;
   background-position: calc(100% - 5px) center;
+}
+
+.main {
+  h1 {
+    font-weight: 200;
+  }
 }
